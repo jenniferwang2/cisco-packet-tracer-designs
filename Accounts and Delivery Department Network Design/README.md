@@ -1,5 +1,9 @@
 # Basic Departmental Network Design (Accounts & Delivery)
 
+> **Version**: 1.0 (Pinned)  
+> **Git Tag**: `accounts-delivery-v1.0`  
+> **Status**: Completed ✓
+
 ### Objective
 
 I designed this network to simulate a small departmental LAN environment with **segmentation between the Accounts and Delivery departments**, reflecting a real-world office setup. The project emphasizes **logical subnetting, device configuration, IP planning, and inter-departmental communication**, serving as a foundational lab to build more complex topologies.
@@ -158,5 +162,21 @@ To avoid overlaps and confusion, I documented the **IP plan** and followed a con
 ## Summary
 
 This lab successfully demonstrates how to design and implement a basic departmental network using Cisco Packet Tracer. All requirements from the case study were met, and the configuration supports end-to-end communication between hosts in segmented departments. The principles from this project form a strong foundation for more advanced labs involving VLANs, dynamic routing, and WAN technologies.
+
+---
+
+## Version Information
+
+This project is pinned at version 1.0 using Git tag `accounts-delivery-v1.0`. This ensures that this stable, tested configuration can always be referenced. To view this specific version:
+
+```bash
+# Checkout the pinned version
+git checkout accounts-delivery-v1.0
+
+# Or view the project at this tag
+git show accounts-delivery-v1.0:"Accounts and Delivery Department Network Design/README.md"
+```
+
+For more information about version pinning and submodule management, see the main repository's [SUBMODULE_GUIDE.md](../SUBMODULE_GUIDE.md).
 
 ---
