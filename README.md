@@ -39,7 +39,8 @@ cisco-topologies/
 ├── Campus Network
 │   ├── README.md
 ├── README.md <- This file!! >
-├── Accounts and Delivery Department Network Design (DONE)
+├── SUBMODULE_GUIDE.md <- Guide for pinning projects to specific versions
+├── Accounts and Delivery Department Network Design (DONE) [📌 v1.0]
 │   ├── Screenshot_Topology.png
 │   ├── written.jpg
 │   ├── README.md
@@ -85,6 +86,19 @@ Every lab follows a consistent outline to make engineering review easy:
 > If you’re learning: try implementing the addressing plan from the README before looking at the final configuration.
 
 ---
+
+### Pinning Projects to Specific Versions
+
+Some completed projects are tagged to allow you to reference specific stable versions:
+- **Accounts and Delivery Department Network Design**: `accounts-delivery-v1.0`
+
+To checkout a specific pinned version:
+```bash
+git checkout accounts-delivery-v1.0
+```
+
+For more information on working with pinned versions and submodules, see [SUBMODULE_GUIDE.md](./SUBMODULE_GUIDE.md).
+
 
 ## Design Principles
 
