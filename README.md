@@ -1,4 +1,3 @@
----
 # Cisco Packet Tracer Topologies
 
 A curated set of hands-on networking labs I designed and built in **Cisco Packet Tracer**.  
@@ -30,19 +29,22 @@ Example structure:
 ```
 
 cisco-topologies/
-├── 01-basic-lan/
-│   ├── topology.pkt
+├── Hotel Management Network
 │   ├── README.md
-│   └── screenshots/
-├── 02-vlan-routing/
-│   ├── topology.pkt
+├── Branch Office VLAN Network with DHCP, Wireless, and Inter-VLAN Routing
 │   ├── README.md
-│   └── screenshots/
-├── 03-dhcp-server/
-│   ├── topology.pkt
+├── .DS_Store
+├── Site-to-Site IPsec VPN on Cisco ASA
 │   ├── README.md
-│   └── screenshots/
-└── README.md   <-- (this file)
+├── Campus Network
+│   ├── README.md
+├── README.md <- This file!! >
+├── Accounts and Delivery Department Network Design (DONE)
+│   ├── Screenshot_Topology.png
+│   ├── written.jpg
+│   ├── README.md
+│   ├── Screenshot_Topology.pkz
+│   ├── Ping C3.png
 
 ```
 
@@ -107,7 +109,4 @@ Every lab follows a consistent outline to make engineering review easy:
 ## Notes on Sources
 
 I occasionally reference standard designs and vendor documentation for correctness, but every topology and write-up here is **built and reasoned by me**. Where I adapt a common pattern, I document my deviations and justify the trade-offs.
-
----
-
 

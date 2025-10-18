@@ -1,4 +1,3 @@
----
 # Basic Departmental Network Design (Accounts & Delivery)
 
 ### Objective
@@ -21,7 +20,7 @@ A single router connects both departments using static routing and directly assi
 * **Layer 2 separation** using individual switches
 * Basic **IP configuration and connectivity testing**
 
-![Topology Diagram](#) (Screenshot_Topology.png)
+![Topology Diagram](./Screenshot_Topology.png)
 
 ---
 
@@ -46,7 +45,7 @@ I was given the base network: `192.168.40.0/24`. To ensure **logical separation*
 This provided **128 IPs per subnet**, which is sufficient for each department and allows room for growth.
 
 Extra work for my own reference: 
-![Written Component](#) (written.jpg)
+![Written Component](./written.jpg)
 
 ### IP Allocation
 
@@ -97,7 +96,7 @@ write memory
 | PC3     | 192.168.40.131 | 255.255.255.128 | 192.168.40.129  |
 | Printer | 192.168.40.132 | 255.255.255.128 | 192.168.40.129  |
 
-### 🧪 Connectivity Testing
+### Connectivity Testing
 
 From PC0:
 
@@ -105,7 +104,7 @@ From PC0:
 ping 192.168.40.130  # PC2 in Delivery Dept
 ping 192.168.40.132  # Delivery Printer
 ```
-![Ping example](#) (Ping C3.png)
+![Ping example](./Ping%20C3.png) 
 
 All pings were successful, confirming:
 
